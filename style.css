@@ -1,0 +1,26 @@
+a {
+    align-content: space-between;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#nav-bar {
+    display: flex;
+   padding: .65em;
+}
+#main {
+    justify-content: center;
+    height: 85vh;
+    align-items: center;
+}
+footer {
+    display: flex;
+}
+#left {
+    background-color: rgb(247, 0, 255);
+    margin-right: 70rem;
+}
+#right {
+    background-color: rgb(126, 128, 0);
+}
