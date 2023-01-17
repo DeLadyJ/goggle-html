@@ -1,26 +1,52 @@
 a {
-    align-content: space-between;
+    justify-content: space-between;
     text-decoration: none;
+    color: #000000de;
 }
 a:hover {
     text-decoration: underline;
 }
 #nav-bar {
     display: flex;
-   padding: .65em;
+    padding: .65em;
 }
 #main {
-    justify-content: center;
-    height: 85vh;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+middle {
+    margin: auto;
 }
 footer {
     display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 5vh;
+    align-items: center;
+    margin-top: 10rem;
+
 }
 #left {
-    background-color: rgb(247, 0, 255);
     margin-right: 70rem;
+    justify-content: space-between;
 }
 #right {
-    background-color: rgb(126, 128, 0);
+    display: flex;
+    align-items: center;
+}
+input {
+    border-radius: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 5vh;
+   /* padding: .65rem;*/
+    width: 100%;
+
+}
+button {
+    justify-content: space-between;
+    background-color: ghostwhite;
+    border: none;
 }
