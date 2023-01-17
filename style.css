@@ -16,7 +16,7 @@ a:hover {
     justify-content: center;
     height: 80vh;
 }
-middle {
+#middle {
     margin: auto;
 }
 footer {
@@ -45,8 +45,22 @@ input {
     width: 100%;
 
 }
-button {
+#but2 {
     justify-content: space-between;
     background-color: ghostwhite;
     border: none;
+}
+#but1 {
+    padding: 5px 23px;
+    margin: 0px 8px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#menu {
+    margin-left: 1em;
+}
+#images {
+    margin-left: 1em;
 }
