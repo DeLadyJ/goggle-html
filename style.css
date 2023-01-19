@@ -14,6 +14,28 @@ a:hover {
 #nav-bar #menu {
     width: 15px;
 }
+#left {
+    display: flex;
+    margin-right: 70rem;
+    justify-content: space-around;
+}
+#right {
+    display: flex;
+    justify-content: space-around;
+}
+#menu {
+    margin-left: 1em;
+}
+#images {
+    margin-left: 1em;
+}
+#but-1 {
+    padding: 5px 23px;
+    margin: 0px 8px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+}
 #main {
     display: flex;
     justify-content: center;
@@ -21,56 +43,41 @@ a:hover {
 }
 #middle {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
-#ex-mid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#logo {
+    width: 272px;
+    height: 92px;
+    padding-bottom: 15px;
 }
 #high-middle {
     display: flex;
+    align-content: center;
     border: solid;
     border-color: lightsteelblue;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
   }
   #high-middle input {
     border: none;
+    margin: 5px;
+    padding: 0px 150px;
   }
+ 
   #high-middle svg {
     width: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: gainsboro;
-    height: 5vh;
-    align-items: center;
-    margin-top: 10rem;
+  #low-mid {
+    padding: 18px 0px 0px;
 }
-#high-bot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#low-bot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#left {
-    margin-right: 70rem;
-    justify-content: space-between;
-}
-#right {
-    display: flex;
-    align-items: center;
-}
-
-#but-2 {
+  #but-2 {
     background-color: #f8f9fa;
     border: none;
     margin: 11px 4px;
@@ -88,29 +95,36 @@ footer {
     font-family: arial, sans-serif;
     color: #202124;
 }
-#but-1 {
-    padding: 5px 23px;
-    margin: 0px 8px;
-    background-color: #1a73e8;
-    color: white;
-    border: none;
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 5vh;
+    align-items: center;
+    margin-top: 10rem;
 }
-#menu {
-    margin-left: 1em;
+#high-bot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-#images {
-    margin-left: 1em;
+#low-bot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-/*#mic {
+
+#high-middle #mic {
     padding: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#cam {
+#high-middle #cam {
     padding: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }*/
-#low-mid {
-    padding: 18px 0px 0px;
-}
-#logo {
-    padding-bottom: 15px;
-}
+
